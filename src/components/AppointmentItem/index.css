@@ -1,0 +1,38 @@
+.list-container {
+  height: 90px;
+  min-width: 280px;
+  width: auto;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  padding: 10px 15px;
+  margin: 10px 10px;
+}
+
+.name-and-star-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  font-family: Roboto;
+  margin: 5px 0px;
+}
+
+.btn-star {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #b5b7c4;
+  margin-top: 8px;
+}
